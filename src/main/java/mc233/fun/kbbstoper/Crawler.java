@@ -27,7 +27,7 @@ public class Crawler {
 	}
 
 	public void resolveWebData() {
-		String url = "https://www.klpbbs.com/forum.php?mod=misc&action=viewthreadmod&tid=" + Option.BBS_URL.getString() + "&mobile=no";
+		String url = "https://klpbbs.com/forum.php?mod=misc&action=viewthreadmod&tid=" + Option.BBS_URL.getString() + "&mobile=no";
 		Document doc = null;
 		try {
 			if (Option.PROXY_ENABLE.getBoolean()) {
